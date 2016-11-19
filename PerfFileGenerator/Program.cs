@@ -7,9 +7,10 @@ using DataAccess; //CSV Tools
 using IO = System.IO;
 using System.Diagnostics;
 
-//Title:  Grand Prix 4 GPxPatch Performance file generator.
-//Author: AUS_Doug
-//Desc:   Takes CSVs as input, and generates a GPxPatch 4.44 compatible Performance file for Grand Prix 4
+//Title:   Grand Prix 4 GPxPatch Performance file generator.
+//Author:  AUS_Doug
+//Desc:    Takes CSVs as input, and generates a GPxPatch 4.44 compatible Performance file for Grand Prix 4
+//Version: 1.1
 
 
 namespace PerfFileGenerator
