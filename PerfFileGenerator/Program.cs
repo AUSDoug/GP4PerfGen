@@ -345,10 +345,5 @@ namespace PerfFileGenerator
 
         }
 
-        private static void stringToInt()
-        {
-
-        }
-
     }
 }
