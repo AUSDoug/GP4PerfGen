@@ -1,12 +1,12 @@
 # PerfFileGenerator
 
-Program name: 		Performance File Generator
-Author: 		Douglas Spangenberg, A.K.A AUS_Doug
-Version: 		1.2
-Date: 			23rd November 2016
-Build Time (Version): 	~ 0.25 Hours
-Build Time (Total): 	~ 3.75 Hours
-Licenses:               GNU General Public License v3 & GrandPrixGames.org permission policy.
+Program name: 		Performance File Generator  
+Author: 		Douglas Spangenberg, A.K.A AUS_Doug  
+Version: 		1.2  
+Date: 			23rd November 2016  
+Build Time (Version): 	~ 0.25 Hours  
+Build Time (Total): 	~ 3.75 Hours  
+Licenses:               GNU General Public License v3 & GrandPrixGames.org permission policy.  
 
 What it does:
 ---------------------------
@@ -19,27 +19,27 @@ Requirements:
 
 Basic Usage:
 -----------------------------
-1)     Modify the Setting.ini, so that:
-1.a)   The 'Team CSV' and 'Driver CSV' fields point to the correct files.
-1.a.i) Provide preffered name for Performance file
-1.b)   Fill out the 'Have Driver X' fields, depending on what your 'Driver CSV' contains.
-1.c)   Edit the fields in the 'Team' section, so that they point to the correct fields in your 'Team CSV'
-1.d)   Edit the fields in the 'Driver' section, so that the point to the correct fields in your 'Driver CSV'
+1)     Modify the Setting.ini, so that:  
+1.a)   The 'Team CSV' and 'Driver CSV' fields point to the correct files.  
+1.a.i) Provide preffered name for Performance file  
+1.b)   Fill out the 'Have Driver X' fields, depending on what your 'Driver CSV' contains.  
+1.c)   Edit the fields in the 'Team' section, so that they point to the correct fields in your 'Team CSV'  
+1.d)   Edit the fields in the 'Driver' section, so that the point to the correct fields in your 'Driver CSV'  
 
-2)     Have 'Settings.ini', 'GP4 Perf Gen.exe' and 'CsvReader.dll' in the same folder.
-3)     Double-click 'GP4 Perf Gen.exe'
+2)     Have 'Settings.ini', 'GP4 Perf Gen.exe' and 'CsvReader.dll' in the same folder.  
+3)     Double-click 'GP4 Perf Gen.exe'  
 
 Advanced Usage:
 -----------------------------
-Follow Steps 1 & 2 from above, though you can choose to provide your Settings.ini by using the full path.
-'GP4 Perf Gen.exe' will accept, as a command-line argument, a custom-named Settings.ini.
-See 'AdvancedRun.bat' for example.
-You could, for example, provide a different Settings.ini (containing different Team & Driver CSV names and a unique Performance Pile name) for multiple races at once:
-"GP4 Perf Gen.exe" Settings-Melbourne.ini
-"GP4 Perf Gen.exe" Settings-Bahrain.ini
-"GP4 Perf Gen.exe" Settings-Sepang.ini
-............
-"GP4 Perf Gen.exe" Settings-AbuDhabi.ini
+Follow Steps 1 & 2 from above, though you can choose to provide your Settings.ini by using the full path.  
+'GP4 Perf Gen.exe' will accept, as a command-line argument, a custom-named Settings.ini.  
+See 'AdvancedRun.bat' for example.  
+You could, for example, provide a different Settings.ini (containing different Team & Driver CSV names and a unique Performance Pile name) for multiple races at once:  
+"GP4 Perf Gen.exe" Settings-Melbourne.ini  
+"GP4 Perf Gen.exe" Settings-Bahrain.ini  
+"GP4 Perf Gen.exe" Settings-Sepang.ini  
+............  
+"GP4 Perf Gen.exe" Settings-AbuDhabi.ini  
 
 ChangeLog:
 -----------------------------
