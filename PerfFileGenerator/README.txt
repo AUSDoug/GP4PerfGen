@@ -1,5 +1,3 @@
-# PerfFileGenerator
-
 Program name: 		Performance File Generator
 Author: 		Douglas Spangenberg, A.K.A AUS_Doug
 Version: 		1.2

@@ -88,6 +88,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="GrandPrixGames.org Permission Policy.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="README.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="Suvudu_Tyria-Jaina1.ico" />
   </ItemGroup>
   <ItemGroup>
