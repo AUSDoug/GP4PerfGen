@@ -1,23 +1,23 @@
-Slot Number,Driver,Driver Number,Base Race Grip,Race Grip Variance,Base Qualifying Grip,Qualifying Grip Variance,Nationality,Tag
-1,Nico Rosberg,6,16230,170,17000,312,DE,ROS
-2,Nico Hulkenberg,27,16150,150,16850,330,DE,HUL
-3,Sebastian Vettel,5,16240,160,17000,310,DE,VET
-4,Lewis Hamilton,44,16240,160,17000,310,GB,HAM
-5,Juan Pablo Montoya,7,16100,100,16850,325,CO,MOY
-6,Scott Dixon,9,16100,100,16800,250,NZ,DIX
-7,Mark Webber,2,16120,100,16820,300,AU,WEB
-8,Jenson Button,22,16120,100,16820,300,GB,BUT
-9,Nick Heidfeld,23,16090,175,16790,120,DE,HEI
-10,Bruno Senna,21,16100,105,16800,150,BR,SEN
-11,Kimi Raikkonen,7,16150,140,16920,175,FI,RAI
-12,Robert Kubica,74,16150,140,16850,150,PL,KUB
-13,Fernando Alonso,14,16300,120,16990,125,ES,ALO
-14,Daniel Ricciardo,3,16250,150,16990,125,AU,RIC
-15,Kevin Magnussen,20,16150,150,16850,150,DK,MAG
-16,Jean-Eric Vergne,25,16200,95,16940,120,FR,VER
-17,Stoffel Vandoorne,47,16180,110,16900,150,BE,VAN
-18,Romain Grosjean,8,16180,110,16850,150,FR,GRO
-19,Nelson Piquet Jr,98,16100,95,16800,150,BR,PIQ
-20,Alexander Rossi,53,16090,100,16820,120,US,ARO
-21,Simona de Silvestro,27,16095,100,16820,150,SU,SIL
-22,Max Verstappen,33,16200,100,16990,125,NL,MVE
+Slot Number,Driver,Driver Number,Base Race Grip,Race Grip Variance,Base Qualifying Grip,Qualifying Grip Variance,Nationality,Tag,
+1,Nico Rosberg,6,16230,170,17000,200,DE,ROS,
+2,Nico Hulkenberg,27,16150,170,16920,250,DE,HUL,
+3,Sebastian Vettel,5,16240,160,17000,200,DE,VET,
+4,Lewis Hamilton,44,16240,160,17000,200,GB,HAM,
+5,Juan Pablo Montoya,7,16100,100,16950,200,CO,MOY,
+6,Scott Dixon,9,16100,100,16800,250,NZ,DIX,
+7,Mark Webber,2,16155,140,16880,250,AU,WEB,
+8,Jenson Button,22,16155,140,16880,250,GB,BUT,
+9,Nick Heidfeld,23,16090,175,16790,300,DE,HEI,
+10,Bruno Senna,21,16100,105,16800,150,BR,SEN,
+11,Kimi Raikkonen,7,16180,140,16920,250,FI,RAI,
+12,Robert Kubica,74,16150,140,16850,150,PL,KUB,
+13,Fernando Alonso,14,16300,150,16990,210,ES,ALO,
+14,Daniel Ricciardo,3,16250,150,16990,210,AU,RIC,
+15,Kevin Magnussen,20,16150,140,16875,150,DK,MAG,
+16,Jean-Eric Vergne,25,16200,120,16960,120,FR,VER,
+17,Stoffel Vandoorne,47,16200,125,16900,150,BE,VAN,
+18,Romain Grosjean,8,16180,110,16900,150,FR,GRO,
+19,Nelson Piquet Jr,98,16100,95,16800,150,BR,PIQ,
+20,Alexander Rossi,53,16090,125,16850,120,US,ARO,
+21,Simona de Silvestro,27,16100,100,16820,150,SU,SIL,
+22,Max Verstappen,33,16200,150,16990,210,NL,MVE,
