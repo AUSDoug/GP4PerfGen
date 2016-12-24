@@ -2,10 +2,10 @@
 
 Program name: 		Performance File Generator  
 Author: 		Douglas Spangenberg, A.K.A AUS_Doug  
-Version: 		1.2  
-Date: 			23rd November 2016  
-Build Time (Version): 	~ 0.25 Hours  
-Build Time (Total): 	~ 3.75 Hours  
+Version: 		1.3   
+Date: 			24th December 2016  
+Build Time (Version): 	~ 1 Hours  
+Build Time (Total): 	~ 4.75 Hours  
 Licenses:               GNU General Public License v3 & GrandPrixGames.org permission policy.  
 
 What it does:
@@ -25,6 +25,7 @@ Basic Usage:
 1.b)   Fill out the 'Have Driver X' fields, depending on what your 'Driver CSV' contains.  
 1.c)   Edit the fields in the 'Team' section, so that they point to the correct fields in your 'Team CSV'  
 1.d)   Edit the fields in the 'Driver' section, so that the point to the correct fields in your 'Driver CSV'  
+1.e)   Edit the fields in the 'TextureNames' section, such that they match your Tread and Rim textures  
 
 2)     Have 'Settings.ini', 'GP4 Perf Gen.exe' and 'CsvReader.dll' in the same folder.  
 3)     Double-click 'GP4 Perf Gen.exe'  
@@ -43,6 +44,10 @@ You could, for example, provide a different Settings.ini (containing different T
 
 ChangeLog:
 -----------------------------
+24th December, 2016 - 1.3 Release.
+- Added Gear count, Tread texture & Rim texture functionality
+  - The Team.csv file must feature columns for these values.
+  
 23rd November 2016 - 1.2 Release.
 - More code documentation.
 - License information.
@@ -60,13 +65,10 @@ Notes:
 While much more flexible than 1.0, there are still some rules that must be observed.
 - Teams and Drivers must be in separate CSV files.
 - Both CSVs need a first row with Column headings.
-- Teams need: Team Name, Engine supplier, Race BHP, Qualifying BHP and Reliability.
+- Teams need: Team Name, Engine supplier, Race BHP, Qualifying BHP, Reliability, Gear counts, Tread names and Rim names.
 - The Team CSV must be NO LONGER than 12 Rows; 1 Row of Column Headings, and up to 11 teams.
 - Drivers need: Name, Base Race Grip, Race Grip Variance, Base Qualifying Grip, Qualy Grip Variance
 - Driver numbers, nationalities and 3-Letter codes are optional.
   - GPxPatch requires that, if you have a 3-Letter code, you must have a Nationality.
     If you provide a 3-Letter code, without a nationality GP4 Perf Gen will provide a default 'UN' Nationality.
 - If you lose the Settings.ini file, a new one will be generated at next use with default values.
-
-Latter plans include:
-* Wheel and Tread/Rim Texture information.
